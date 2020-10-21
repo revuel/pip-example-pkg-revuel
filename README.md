@@ -1,11 +1,14 @@
 # Pip example package
-[![Built with spaCy](https://img.shields.io/badge/made%20with%20❤%20and-spaCy-09a3d5.svg)](https://spacy.io) 
-[![PyPI version](https://badge.fury.io/py/pip-example-pkg-revuel.svg)](https://badge.fury.io/py/pip-example-pkg-revuel)
 
+[![Build Status](https://travis-ci.org/revuel/pip-example-pkg-revuel.svg?branch=master)](https://travis-ci.org/revuel/pip-example-pkg-revuel) 
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=revuel_pip-example-pkg-revuel&metric=coverage)](https://sonarcloud.io/dashboard?id=revuel_pip-example-pkg-revuel)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=revuel_pip-example-pkg-revuel&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=revuel_pip-example-pkg-revuel)
+[![PyPI version](https://badge.fury.io/py/pip-example-pkg-revuel.svg)](https://badge.fury.io/py/pip-example-pkg-revuel)
 
 
 [Tutorial about how to distribute pip packages](https://packaging.python.org/tutorials/packaging-projects/)
 
+## Raw CLI
 **Dependencies**
 
 `pip install --upgrade setuptools wheel`
