@@ -14,6 +14,9 @@ coverage:
 	coverage report --ignore-errors --omit=venv/**,tests/**,*__init__* && \
 	coverage xml
 
+sonar:
+	sonar-scanner -Dsonar.projectKey=revuel_pip-example-pkg-revuel -Dsonar.exclusions=tests/**
+
 build:
 	python setup.py sdist bdist_wheel
 
