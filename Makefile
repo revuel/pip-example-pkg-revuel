@@ -15,7 +15,7 @@ coverage:
 	coverage xml
 
 sonar:
-	sonar-scanner -Dsonar.projectKey=revuel_pip-example-pkg-revuel -Dsonar.sources=/example_pkg
+	sonar-scanner -Dsonar.projectKey=revuel_pip-example-pkg-revuel -Dsonar.sources=example_pkg
 
 build:
 	python setup.py sdist bdist_wheel
