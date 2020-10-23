@@ -12,3 +12,12 @@ script:
 - make coverage
 - make sonar
 - make build
+
+deploy:
+  provider: pypi
+  user: __token__
+  password: PYPI_TOKEN
+  server: https://test.pypi.org/legacy/
+  distributions: "sdist bdist_wheel"
+  on:
+    branch: staging
