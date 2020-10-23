@@ -11,12 +11,4 @@ script:
 - make libs
 - make coverage
 - make sonar
-
-deploy:
-  provider: pypi
-  user: __token__
-  password: PYPI_TOKEN
-  server: https://test.pypi.org/legacy/
-  distributions: "sdist bdist_wheel"
-  on:
-    branch: master
+- make publish

@@ -21,4 +21,5 @@ build:
 	python setup.py sdist bdist_wheel
 
 publish:
-	twine upload dist/*
+	twine upload -u __token__ -p ${PYPI_TOKEN} dist/*
+
