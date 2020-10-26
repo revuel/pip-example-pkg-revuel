@@ -21,5 +21,5 @@ build:
 	python setup.py sdist bdist_wheel
 
 publish:
-	twine upload -u __token__ -p ${PYPI_TOKEN} dist/*
+	twine upload -u __token__ -p ${PYPI_TOKEN} --repository-url https://upload.pypi.org/legacy/ dist/*
 
