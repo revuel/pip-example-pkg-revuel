@@ -11,4 +11,5 @@ script:
 - make libs
 - make coverage
 - make sonar
+- make build
 - make publish
