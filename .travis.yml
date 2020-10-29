@@ -7,11 +7,9 @@ addons:
 python:
   - "3.7"
 
-if: tag IS present
-
 script:
 - make libs
 - make coverage
 - make sonar
-- make build
-- make publish
+- if [ "$TRAVIS_BRANCH" == "master" ]; then make build; fi
+- if [ "$TRAVIS_BRANCH" == "master" ]; then make publish; fi
