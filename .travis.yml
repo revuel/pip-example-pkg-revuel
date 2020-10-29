@@ -7,8 +7,6 @@ addons:
 python:
   - "3.7"
 
-if: tag IS present
-
 script:
 - make libs
 - make coverage
