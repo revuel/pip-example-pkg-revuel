@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pip-example-pkg-revuel",
-    version="0.8.0",
+    version="0.9.0",
     author="revuel",
     author_email="revuel22@hotmail.com",
     description="Tutorial to distribute a pip package",
