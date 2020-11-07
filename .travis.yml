@@ -7,8 +7,7 @@ addons:
 python:
   - "3.7"
 
-tags:
-  enabled: false
+if: tag IS blank
 
 script:
 - make libs
