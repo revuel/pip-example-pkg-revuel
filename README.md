@@ -30,3 +30,5 @@
 &#9989; Here a minion just to make this file more friendly
 
 [<img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Minion_%28example%29.svg" width="100"/>](image.png)
+
+<sub> This a subscripted string or at least is should be </sub>
